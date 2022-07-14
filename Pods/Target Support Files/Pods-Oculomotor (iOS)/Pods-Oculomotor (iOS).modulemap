@@ -1,0 +1,6 @@
+framework module Pods_Oculomotor__iOS_ {
+  umbrella header "Pods-Oculomotor (iOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -25,6 +25,10 @@
 		2ED5EA01287E3D3000BFB6B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED5E9D7287E3D2F00BFB6B2 /* ContentView.swift */; };
 		2ED5EA02287E3D3000BFB6B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED5E9D8287E3D3000BFB6B2 /* Assets.xcassets */; };
 		2ED5EA03287E3D3000BFB6B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED5E9D8287E3D3000BFB6B2 /* Assets.xcassets */; };
+		917A8E347FF617AAC6414716 /* Pods_Oculomotor__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F6AE738354A82224592D0F /* Pods_Oculomotor__iOS_.framework */; };
+		D76B474028803D6E006DB6DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D76B473F28803D6E006DB6DF /* GoogleService-Info.plist */; };
+		D76B474128803D6E006DB6DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D76B473F28803D6E006DB6DF /* GoogleService-Info.plist */; };
+		DE262E71F36DAA282049BE75 /* Pods_Oculomotor__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C006865CE103D0D401B3DAD /* Pods_Oculomotor__macOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		089A0479317079D56423E17D /* Pods-Oculomotor (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oculomotor (macOS).release.xcconfig"; path = "Target Support Files/Pods-Oculomotor (macOS)/Pods-Oculomotor (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		1C006865CE103D0D401B3DAD /* Pods_Oculomotor__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oculomotor__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA24B0D287FF764007EFC13 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 		2EA24B10287FF775007EFC13 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 		2EA24B13287FF77F007EFC13 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
@@ -61,6 +67,12 @@
 		2ED5E9F6287E3D3000BFB6B2 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED5E9FA287E3D3000BFB6B2 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		2ED5E9FC287E3D3000BFB6B2 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		30B04ADF2490592A6BE60F90 /* Pods-Oculomotor (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oculomotor (macOS).debug.xcconfig"; path = "Target Support Files/Pods-Oculomotor (macOS)/Pods-Oculomotor (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		391821239F86267047903269 /* Pods-Oculomotor (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oculomotor (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Oculomotor (iOS)/Pods-Oculomotor (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		3D3702D901BE7B057B0A582D /* Pods-Oculomotor (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oculomotor (iOS).release.xcconfig"; path = "Target Support Files/Pods-Oculomotor (iOS)/Pods-Oculomotor (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		C2F6AE738354A82224592D0F /* Pods_Oculomotor__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oculomotor__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76B473F28803D6E006DB6DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D76B474628804628006DB6DF /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				917A8E347FF617AAC6414716 /* Pods_Oculomotor__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE262E71F36DAA282049BE75 /* Pods_Oculomotor__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +131,7 @@
 		2EA24B09287FE136007EFC13 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				D76B474628804628006DB6DF /* RegisterViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -129,12 +144,15 @@
 				2ED5E9ED287E3D3000BFB6B2 /* Tests iOS */,
 				2ED5E9F9287E3D3000BFB6B2 /* Tests macOS */,
 				2ED5E9DE287E3D3000BFB6B2 /* Products */,
+				8B272B2CCD3CAA5DA8120547 /* Pods */,
+				E5A28C0D6B743B6D7107C076 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		2ED5E9D5287E3D2F00BFB6B2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D76B473F28803D6E006DB6DF /* GoogleService-Info.plist */,
 				2ED5E9D6287E3D2F00BFB6B2 /* OculomotorApp.swift */,
 				2EA24B09287FE136007EFC13 /* ViewModel */,
 				2EA24B08287FE12B007EFC13 /* Model */,
@@ -181,6 +199,26 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		8B272B2CCD3CAA5DA8120547 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				391821239F86267047903269 /* Pods-Oculomotor (iOS).debug.xcconfig */,
+				3D3702D901BE7B057B0A582D /* Pods-Oculomotor (iOS).release.xcconfig */,
+				30B04ADF2490592A6BE60F90 /* Pods-Oculomotor (macOS).debug.xcconfig */,
+				089A0479317079D56423E17D /* Pods-Oculomotor (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E5A28C0D6B743B6D7107C076 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2F6AE738354A82224592D0F /* Pods_Oculomotor__iOS_.framework */,
+				1C006865CE103D0D401B3DAD /* Pods_Oculomotor__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2ED5EA06287E3D3000BFB6B2 /* Build configuration list for PBXNativeTarget "Oculomotor (iOS)" */;
 			buildPhases = (
+				34A549A6719A96A5D1747F0B /* [CP] Check Pods Manifest.lock */,
 				2ED5E9D9287E3D3000BFB6B2 /* Sources */,
 				2ED5E9DA287E3D3000BFB6B2 /* Frameworks */,
 				2ED5E9DB287E3D3000BFB6B2 /* Resources */,
+				26BDD43E4AC7C38965B32E42 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2ED5EA09287E3D3000BFB6B2 /* Build configuration list for PBXNativeTarget "Oculomotor (macOS)" */;
 			buildPhases = (
+				9327AD09C264E1A2EDC188F8 /* [CP] Check Pods Manifest.lock */,
 				2ED5E9DF287E3D3000BFB6B2 /* Sources */,
 				2ED5E9E0287E3D3000BFB6B2 /* Frameworks */,
 				2ED5E9E1287E3D3000BFB6B2 /* Resources */,
@@ -307,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ED5EA02287E3D3000BFB6B2 /* Assets.xcassets in Resources */,
+				D76B474028803D6E006DB6DF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ED5EA03287E3D3000BFB6B2 /* Assets.xcassets in Resources */,
+				D76B474128803D6E006DB6DF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +376,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26BDD43E4AC7C38965B32E42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Oculomotor (iOS)/Pods-Oculomotor (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Oculomotor (iOS)/Pods-Oculomotor (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Oculomotor (iOS)/Pods-Oculomotor (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34A549A6719A96A5D1747F0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Oculomotor (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9327AD09C264E1A2EDC188F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Oculomotor (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2ED5E9D9287E3D3000BFB6B2 /* Sources */ = {
@@ -445,6 +552,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -497,6 +605,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -506,6 +615,7 @@
 		};
 		2ED5EA07287E3D3000BFB6B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 391821239F86267047903269 /* Pods-Oculomotor (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -536,6 +646,7 @@
 		};
 		2ED5EA08287E3D3000BFB6B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3702D901BE7B057B0A582D /* Pods-Oculomotor (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -567,10 +678,12 @@
 		};
 		2ED5EA0A287E3D3000BFB6B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30B04ADF2490592A6BE60F90 /* Pods-Oculomotor (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -595,10 +708,12 @@
 		};
 		2ED5EA0B287E3D3000BFB6B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 089A0479317079D56423E17D /* Pods-Oculomotor (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
