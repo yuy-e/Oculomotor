@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		021C4FE128811BD30095B0AF /* FormRowStaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021C4FE028811BD30095B0AF /* FormRowStaticView.swift */; };
+		021C4FE228811BD30095B0AF /* FormRowStaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021C4FE028811BD30095B0AF /* FormRowStaticView.swift */; };
+		021C4FE4288122950095B0AF /* FormRowLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021C4FE3288122950095B0AF /* FormRowLinkView.swift */; };
+		021C4FE5288122950095B0AF /* FormRowLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021C4FE3288122950095B0AF /* FormRowLinkView.swift */; };
+		021C4FE82881BBFC0095B0AF /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021C4FE72881BBFC0095B0AF /* CircleImage.swift */; };
+		021C4FE92881BBFC0095B0AF /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021C4FE72881BBFC0095B0AF /* CircleImage.swift */; };
+		021C4FEB2881C1D70095B0AF /* SettingsAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021C4FEA2881C1D70095B0AF /* SettingsAccountView.swift */; };
+		021C4FEC2881C1D70095B0AF /* SettingsAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021C4FEA2881C1D70095B0AF /* SettingsAccountView.swift */; };
+		021C4FEE2881E58C0095B0AF /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021C4FED2881E58C0095B0AF /* UserData.swift */; };
+		021C4FEF2881E58C0095B0AF /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021C4FED2881E58C0095B0AF /* UserData.swift */; };
+		021C4FF12881E8910095B0AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021C4FF02881E8910095B0AF /* SceneDelegate.swift */; };
+		021C4FF22881E8910095B0AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021C4FF02881E8910095B0AF /* SceneDelegate.swift */; };
 		2EA24B0E287FF764007EFC13 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA24B0D287FF764007EFC13 /* SummaryView.swift */; };
 		2EA24B0F287FF764007EFC13 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA24B0D287FF764007EFC13 /* SummaryView.swift */; };
 		2EA24B11287FF775007EFC13 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA24B10287FF775007EFC13 /* ExerciseView.swift */; };
@@ -49,6 +61,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		021C4FE028811BD30095B0AF /* FormRowStaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowStaticView.swift; sourceTree = "<group>"; };
+		021C4FE3288122950095B0AF /* FormRowLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowLinkView.swift; sourceTree = "<group>"; };
+		021C4FE72881BBFC0095B0AF /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		021C4FEA2881C1D70095B0AF /* SettingsAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAccountView.swift; sourceTree = "<group>"; };
+		021C4FED2881E58C0095B0AF /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserData.swift; path = Shared/View/SettingsSupportView/UserData.swift; sourceTree = SOURCE_ROOT; };
+		021C4FF02881E8910095B0AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		089A0479317079D56423E17D /* Pods-Oculomotor (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oculomotor (macOS).release.xcconfig"; path = "Target Support Files/Pods-Oculomotor (macOS)/Pods-Oculomotor (macOS).release.xcconfig"; sourceTree = "<group>"; };
 		1C006865CE103D0D401B3DAD /* Pods_Oculomotor__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oculomotor__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA24B0D287FF764007EFC13 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
@@ -109,6 +127,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		021C4FE62881BB470095B0AF /* SettingsSupportView */ = {
+			isa = PBXGroup;
+			children = (
+				021C4FE72881BBFC0095B0AF /* CircleImage.swift */,
+				021C4FEA2881C1D70095B0AF /* SettingsAccountView.swift */,
+			);
+			path = SettingsSupportView;
+			sourceTree = "<group>";
+		};
 		2EA24B07287FE128007EFC13 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +144,9 @@
 				2EA24B10287FF775007EFC13 /* ExerciseView.swift */,
 				2EA24B13287FF77F007EFC13 /* MessageView.swift */,
 				2EA24B16287FF78C007EFC13 /* SettingsView.swift */,
+				021C4FE028811BD30095B0AF /* FormRowStaticView.swift */,
+				021C4FE3288122950095B0AF /* FormRowLinkView.swift */,
+				021C4FE62881BB470095B0AF /* SettingsSupportView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -124,6 +154,7 @@
 		2EA24B08287FE12B007EFC13 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				021C4FED2881E58C0095B0AF /* UserData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -158,6 +189,7 @@
 				2EA24B08287FE12B007EFC13 /* Model */,
 				2EA24B07287FE128007EFC13 /* View */,
 				2ED5E9D8287E3D3000BFB6B2 /* Assets.xcassets */,
+				021C4FF02881E8910095B0AF /* SceneDelegate.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -230,7 +262,6 @@
 				2ED5E9D9287E3D3000BFB6B2 /* Sources */,
 				2ED5E9DA287E3D3000BFB6B2 /* Frameworks */,
 				2ED5E9DB287E3D3000BFB6B2 /* Resources */,
-				26BDD43E4AC7C38965B32E42 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -378,23 +409,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		26BDD43E4AC7C38965B32E42 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Oculomotor (iOS)/Pods-Oculomotor (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Oculomotor (iOS)/Pods-Oculomotor (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Oculomotor (iOS)/Pods-Oculomotor (iOS)-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		34A549A6719A96A5D1747F0B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -446,12 +460,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				021C4FE128811BD30095B0AF /* FormRowStaticView.swift in Sources */,
 				2EA24B11287FF775007EFC13 /* ExerciseView.swift in Sources */,
 				2ED5EA00287E3D3000BFB6B2 /* ContentView.swift in Sources */,
 				2ED5E9FE287E3D3000BFB6B2 /* OculomotorApp.swift in Sources */,
 				2EA24B17287FF78C007EFC13 /* SettingsView.swift in Sources */,
+				021C4FEE2881E58C0095B0AF /* UserData.swift in Sources */,
+				021C4FE82881BBFC0095B0AF /* CircleImage.swift in Sources */,
+				021C4FE4288122950095B0AF /* FormRowLinkView.swift in Sources */,
+				021C4FEB2881C1D70095B0AF /* SettingsAccountView.swift in Sources */,
 				2EA24B0E287FF764007EFC13 /* SummaryView.swift in Sources */,
 				2EA24B14287FF77F007EFC13 /* MessageView.swift in Sources */,
+				021C4FF12881E8910095B0AF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,12 +479,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				021C4FE228811BD30095B0AF /* FormRowStaticView.swift in Sources */,
 				2EA24B12287FF775007EFC13 /* ExerciseView.swift in Sources */,
 				2ED5EA01287E3D3000BFB6B2 /* ContentView.swift in Sources */,
 				2ED5E9FF287E3D3000BFB6B2 /* OculomotorApp.swift in Sources */,
 				2EA24B18287FF78C007EFC13 /* SettingsView.swift in Sources */,
+				021C4FEF2881E58C0095B0AF /* UserData.swift in Sources */,
+				021C4FE92881BBFC0095B0AF /* CircleImage.swift in Sources */,
+				021C4FE5288122950095B0AF /* FormRowLinkView.swift in Sources */,
+				021C4FEC2881C1D70095B0AF /* SettingsAccountView.swift in Sources */,
 				2EA24B0F287FF764007EFC13 /* SummaryView.swift in Sources */,
 				2EA24B15287FF77F007EFC13 /* MessageView.swift in Sources */,
+				021C4FF22881E8910095B0AF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
