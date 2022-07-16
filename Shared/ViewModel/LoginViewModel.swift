@@ -15,8 +15,9 @@ class LoginViewModel: ObservableObject{
     func login(completion: @escaping ()-> Void){
         Firebase.Auth.auth().signIn(withEmail: email, password: password){ (result, error) in
             if let error = error{
-                print(error.localizedDescription)
+                print("Auth Failure:" + error.localizedDescription)
             }else{
+                print("Login Success")
                 completion()
             }
         }

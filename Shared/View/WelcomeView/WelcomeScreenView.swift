@@ -22,10 +22,10 @@ struct WelcomeScreenView: View {
                         .padding(.all, 45.0)
                     Spacer()
                     
-                    LoginPrimaryButtonView(title: "Get Started", backgroundColor: Color("LoginPrimaryColor"), fontColor: Color.white)
+                    PrimaryButtonView(title: "Get Started", backgroundColor: Color("LoginPrimaryColor"), fontColor: Color.white, action: {})
                     
                     NavigationLink(destination: LoginView().navigationBarHidden(true), label: {
-                            LoginPrimaryButtonView(title: "Sign In", backgroundColor: Color.white, fontColor: Color("LoginPrimaryColor"))
+                        PrimaryButtonView(title: "Sign In", backgroundColor: Color.white, fontColor: Color("LoginPrimaryColor"), action: {})
                             .padding(.vertical)
                     })
                     

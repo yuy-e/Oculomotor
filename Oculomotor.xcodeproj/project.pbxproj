@@ -31,9 +31,12 @@
 		D76B4748288049C1006DB6DF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76B4747288049C1006DB6DF /* LoginViewModel.swift */; };
 		D76B474A28804AE4006DB6DF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76B474928804AE4006DB6DF /* LoginView.swift */; };
 		D76B474D288051DB006DB6DF /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76B474C288051DB006DB6DF /* AvatarView.swift */; };
-		D76B474F2880569E006DB6DF /* LoginPrimaryButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76B474E2880569E006DB6DF /* LoginPrimaryButtonView.swift */; };
 		D76B475528805FAC006DB6DF /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76B475428805FAC006DB6DF /* WelcomeScreenView.swift */; };
 		D76B4757288077EB006DB6DF /* SocalLoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76B4756288077EB006DB6DF /* SocalLoginButtonView.swift */; };
+		D76B475928807F80006DB6DF /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76B475828807F80006DB6DF /* RegisterView.swift */; };
+		D76B475B28808155006DB6DF /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76B475A28808155006DB6DF /* RegisterViewModel.swift */; };
+		D76B475D288088C5006DB6DF /* PrimaryButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76B475C288088C5006DB6DF /* PrimaryButtonView.swift */; };
+		D76B476028808BEA006DB6DF /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76B475F28808BEA006DB6DF /* View+Extensions.swift */; };
 		DE262E71F36DAA282049BE75 /* Pods_Oculomotor__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C006865CE103D0D401B3DAD /* Pods_Oculomotor__macOS_.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,13 +81,15 @@
 		3D3702D901BE7B057B0A582D /* Pods-Oculomotor (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oculomotor (iOS).release.xcconfig"; path = "Target Support Files/Pods-Oculomotor (iOS)/Pods-Oculomotor (iOS).release.xcconfig"; sourceTree = "<group>"; };
 		C2F6AE738354A82224592D0F /* Pods_Oculomotor__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oculomotor__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76B473F28803D6E006DB6DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		D76B474628804628006DB6DF /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		D76B4747288049C1006DB6DF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		D76B474928804AE4006DB6DF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		D76B474C288051DB006DB6DF /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
-		D76B474E2880569E006DB6DF /* LoginPrimaryButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPrimaryButtonView.swift; sourceTree = "<group>"; };
 		D76B475428805FAC006DB6DF /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
 		D76B4756288077EB006DB6DF /* SocalLoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocalLoginButtonView.swift; sourceTree = "<group>"; };
+		D76B475828807F80006DB6DF /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		D76B475A28808155006DB6DF /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		D76B475C288088C5006DB6DF /* PrimaryButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonView.swift; sourceTree = "<group>"; };
+		D76B475F28808BEA006DB6DF /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,8 +150,8 @@
 		2EA24B09287FE136007EFC13 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				D76B474628804628006DB6DF /* RegisterViewModel.swift */,
 				D76B4747288049C1006DB6DF /* LoginViewModel.swift */,
+				D76B475A28808155006DB6DF /* RegisterViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 		2ED5E9D5287E3D2F00BFB6B2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D76B475E28808BD3006DB6DF /* Extensions */,
 				D76B473F28803D6E006DB6DF /* GoogleService-Info.plist */,
 				2ED5E9D6287E3D2F00BFB6B2 /* OculomotorApp.swift */,
 				2EA24B09287FE136007EFC13 /* ViewModel */,
@@ -230,8 +236,9 @@
 			children = (
 				D76B474928804AE4006DB6DF /* LoginView.swift */,
 				D76B474C288051DB006DB6DF /* AvatarView.swift */,
-				D76B474E2880569E006DB6DF /* LoginPrimaryButtonView.swift */,
 				D76B4756288077EB006DB6DF /* SocalLoginButtonView.swift */,
+				D76B475828807F80006DB6DF /* RegisterView.swift */,
+				D76B475C288088C5006DB6DF /* PrimaryButtonView.swift */,
 			);
 			path = SignView;
 			sourceTree = "<group>";
@@ -242,6 +249,14 @@
 				D76B475428805FAC006DB6DF /* WelcomeScreenView.swift */,
 			);
 			path = WelcomeView;
+			sourceTree = "<group>";
+		};
+		D76B475E28808BD3006DB6DF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D76B475F28808BEA006DB6DF /* View+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		E5A28C0D6B743B6D7107C076 /* Frameworks */ = {
@@ -482,15 +497,18 @@
 			files = (
 				2EA24B11287FF775007EFC13 /* ExerciseView.swift in Sources */,
 				2ED5EA00287E3D3000BFB6B2 /* ContentView.swift in Sources */,
+				D76B475D288088C5006DB6DF /* PrimaryButtonView.swift in Sources */,
+				D76B475928807F80006DB6DF /* RegisterView.swift in Sources */,
 				2ED5E9FE287E3D3000BFB6B2 /* OculomotorApp.swift in Sources */,
 				2EA24B17287FF78C007EFC13 /* SettingsView.swift in Sources */,
 				2EA24B0E287FF764007EFC13 /* SummaryView.swift in Sources */,
-				D76B474F2880569E006DB6DF /* LoginPrimaryButtonView.swift in Sources */,
 				2EA24B14287FF77F007EFC13 /* MessageView.swift in Sources */,
 				D76B474A28804AE4006DB6DF /* LoginView.swift in Sources */,
+				D76B475B28808155006DB6DF /* RegisterViewModel.swift in Sources */,
 				D76B475528805FAC006DB6DF /* WelcomeScreenView.swift in Sources */,
 				D76B474D288051DB006DB6DF /* AvatarView.swift in Sources */,
 				D76B4748288049C1006DB6DF /* LoginViewModel.swift in Sources */,
+				D76B476028808BEA006DB6DF /* View+Extensions.swift in Sources */,
 				D76B4757288077EB006DB6DF /* SocalLoginButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -592,7 +610,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -645,7 +663,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
