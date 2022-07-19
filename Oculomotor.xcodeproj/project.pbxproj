@@ -37,6 +37,7 @@
 		D76B475B28808155006DB6DF /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76B475A28808155006DB6DF /* RegisterViewModel.swift */; };
 		D76B475D288088C5006DB6DF /* PrimaryButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76B475C288088C5006DB6DF /* PrimaryButtonView.swift */; };
 		D76B476028808BEA006DB6DF /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76B475F28808BEA006DB6DF /* View+Extensions.swift */; };
+		D7D754AC2886E02200760756 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D754AB2886E02200760756 /* FirestoreManager.swift */; };
 		DE262E71F36DAA282049BE75 /* Pods_Oculomotor__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C006865CE103D0D401B3DAD /* Pods_Oculomotor__macOS_.framework */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +91,7 @@
 		D76B475A28808155006DB6DF /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		D76B475C288088C5006DB6DF /* PrimaryButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonView.swift; sourceTree = "<group>"; };
 		D76B475F28808BEA006DB6DF /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		D7D754AB2886E02200760756 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		2ED5E9D5287E3D2F00BFB6B2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D7D754AA2886E00100760756 /* Manager */,
 				D7D754A928860BBC00760756 /* Model */,
 				D76B475E28808BD3006DB6DF /* Extensions */,
 				D76B473F28803D6E006DB6DF /* GoogleService-Info.plist */,
@@ -257,6 +260,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D7D754AA2886E00100760756 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D7D754AB2886E02200760756 /* FirestoreManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		E5A28C0D6B743B6D7107C076 /* Frameworks */ = {
@@ -510,6 +521,7 @@
 				D76B4748288049C1006DB6DF /* LoginViewModel.swift in Sources */,
 				D76B476028808BEA006DB6DF /* View+Extensions.swift in Sources */,
 				D76B4757288077EB006DB6DF /* SocalLoginButtonView.swift in Sources */,
+				D7D754AC2886E02200760756 /* FirestoreManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
