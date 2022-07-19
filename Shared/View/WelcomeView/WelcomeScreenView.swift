@@ -24,7 +24,8 @@ struct WelcomeScreenView: View {
                     
                     PrimaryButtonView(title: "Get Started", backgroundColor: Color("LoginPrimaryColor"), fontColor: Color.white, action: {})
                     
-                    NavigationLink(destination: LoginView().navigationBarHidden(true), label: {
+                    NavigationLink(
+                        destination: LoginView().navigationBarHidden(true), label: {
                         PrimaryButtonView(title: "Sign In", backgroundColor: Color.white, fontColor: Color("LoginPrimaryColor"), action: {})
                             .padding(.vertical)
                     })

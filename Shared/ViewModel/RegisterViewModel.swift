@@ -10,8 +10,8 @@ import Firebase
 
 class RegisterViewModel: ObservableObject {
     
-    var email: String = ""
-    var password: String = ""
+    @Published var email: String = ""
+    @Published var password: String = ""
     
     func register(completion: @escaping () -> Void) {
         

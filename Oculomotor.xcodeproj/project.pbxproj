@@ -140,13 +140,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		2EA24B08287FE12B007EFC13 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		2EA24B09287FE136007EFC13 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,11 +165,11 @@
 		2ED5E9D5287E3D2F00BFB6B2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D7D754A928860BBC00760756 /* Model */,
 				D76B475E28808BD3006DB6DF /* Extensions */,
 				D76B473F28803D6E006DB6DF /* GoogleService-Info.plist */,
 				2ED5E9D6287E3D2F00BFB6B2 /* OculomotorApp.swift */,
 				2EA24B09287FE136007EFC13 /* ViewModel */,
-				2EA24B08287FE12B007EFC13 /* Model */,
 				2EA24B07287FE128007EFC13 /* View */,
 				2ED5E9D8287E3D3000BFB6B2 /* Assets.xcassets */,
 			);
@@ -257,6 +250,13 @@
 				D76B475F28808BEA006DB6DF /* View+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D7D754A928860BBC00760756 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		E5A28C0D6B743B6D7107C076 /* Frameworks */ = {

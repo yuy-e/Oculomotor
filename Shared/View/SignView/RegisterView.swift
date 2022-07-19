@@ -10,8 +10,6 @@ import SwiftUI
 struct RegisterView: View {
     
     @Environment(\.presentationMode) var presentationMode
-    @State private var email: String = ""
-    @State private var password: String = ""
     @StateObject private var registerVM = RegisterViewModel()
     
     var body: some View {

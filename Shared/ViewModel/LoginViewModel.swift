@@ -9,8 +9,8 @@ import Foundation
 import Firebase
 
 class LoginViewModel: ObservableObject{
-    var email: String = ""
-    var password: String = ""
+    @Published var email: String = ""
+    @Published var password: String = ""
     
     func login(completion: @escaping ()-> Void){
         Firebase.Auth.auth().signIn(withEmail: email, password: password){ (result, error) in
