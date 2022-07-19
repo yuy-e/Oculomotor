@@ -9,16 +9,16 @@ target 'Oculomotor (iOS)' do
   # Pods for Oculomotor (iOS)
   
 # Add the Firebase pod for Google Analytics
-pod 'FirebaseAnalytics'
+#pod 'FirebaseAnalytics'
 
 # For Analytics without IDFA collection capability, use this pod instead
 # pod ‘Firebase/AnalyticsWithoutAdIdSupport’
 
 # Add the pods for any other Firebase products you want to use in your app
 # For example, to use Firebase Authentication and Cloud Firestore
-pod 'Firebase/Auth'
-pod 'Firebase/Storage'
-pod 'Firebase/Firestore'
+#pod 'Firebase/Auth'
+#pod 'Firebase/Storage'
+#pod 'Firebase/Firestore'
 end
 
 target 'Oculomotor (macOS)' do

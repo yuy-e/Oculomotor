@@ -12,6 +12,9 @@ import SwiftUI
     This is the file that will contain all the tabs
  */
 struct ContentView: View {
+    //MARK: - PROPERTIES
+    @EnvironmentObject private var userData: UserData
+    
     var body: some View {
         TabView{
             SummaryView()
@@ -27,8 +30,10 @@ struct ContentView: View {
                     Label("Messages", systemImage: "message")
                 }
             SettingsView()
+                .environmentObject(self.userData)
                 .tabItem{
                     Label("Settings", systemImage: "gearshape")
+                    
                 }
         }
     }
@@ -37,5 +42,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(UserData())
     }
 }
